@@ -45,5 +45,5 @@ Required packages:
 - ggplot2
 - tm
 - wordcloud
-- SnowballC
+
 
