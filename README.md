@@ -19,7 +19,7 @@ The dataset consists of the following columns:
 The R script in this repository performs the following steps:
 
 1. Read the raw data from a CSV file
-2. Preprocess the text in the "OriginalTweet" column (e.g., remove URLs, mentions, non-alphanumeric characters, and convert to lowercase)
+2. Preprocess the text in the "OriginalTweet" column (e.g., remove URLs, mentions, non-alphanumeric characters, null values and convert to lowercase)
 3. Save the cleaned data to a new CSV file
 4. Tokenize the text
 5. Remove stopwords
